@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Stationery Haven</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/unnamed-removebg-preview.png" alt="LOGO" width="80"> Universal Stationery  
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collection.html">Collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <li class="nav-item">
+                        <a class="nav-link" href="about.html">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Container -->
+    <div class="login-container">
+        <div class="login-form">
+            <div class="login-header">
+                <h2>Welcome Back</h2>
+                <p>Login to your account</p>
+            </div>
+            <div class="login-body">
+                <form>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
+                        </div>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="rememberMe">
+                        <label class="form-check-label" for="rememberMe">Remember me</label>
+                    </div>
+                    <button type="submit" class="btn btn-login">Login</button>
+                </form>
+                
+                <div class="login-footer">
+                    <a href="#">Forgot your password?</a>
+                </div>
+                
+                <div class="divider">
+                    <span>or continue with</span>
+                </div>
+                
+                <div class="social-login">
+                    <button class="social-btn btn-facebook">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </button>
+                    <button class="social-btn btn-google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                </div>
+                
+                <div class="register-link">
+                 <a href="#">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  <footer>
+        <div class="container">
+            <p>&copy; 2025 Stationery Haven. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
